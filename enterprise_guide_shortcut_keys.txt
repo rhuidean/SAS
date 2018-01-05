@@ -1,0 +1,19 @@
+Setting up an enterprise miner project
+
+1) Create a new SAS Enterprise Miner project
+-> ctrl + shift + P
+
+2) Define a new SAS library for your sample data
+-> ctrl + shift + L
+
+3) Defina a new SAS Enterprise Miner data source
+-> ctrl + shift + S
+-> Metadata Advisor Options Advanced (Input, Target, Label)
+
+4) Create a new SAS Enterprise Miner process flow diagram
+-> ctrl + shift + D
+
+
+Checking the physical location of work folder
+%let work_path=%sysfunc(pathname(work));
+%put &work_path;
